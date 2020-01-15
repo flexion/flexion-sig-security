@@ -1,0 +1,8 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# For this repository, onboarding is simple. Simply add the user to the list of
+# reviewers for pull requests below, with the format @username. The CI job will
+# parse each user here and them according to @flexion/sig-security. Then, your
+# onboarding journey is complete!
+*       @tohch4
