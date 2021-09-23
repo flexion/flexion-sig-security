@@ -19,6 +19,7 @@
 [SonarSource/sonarqube-scan-action](https://github.com/SonarSource/sonarqube-scan-action) is an officially supported action for running the SonarQube CLI Scanner within Github Actions.
 <details>
     <summary>Example</summary>
+
     ```yaml
         on:
         # Trigger analysis when pushing in master or pull requests, and when creating
@@ -50,6 +51,7 @@
 [SonarSource/sonarcloud-github-action](https://github.com/SonarSource/sonarcloud-github-action) is an officially supported action for running the SonarCloud Scanner within Github Actions.
 <details>
     <summary>Example</summary>
+
     ```yaml
         on:
         # Trigger analysis when pushing in master or pull requests, and when creating
@@ -81,6 +83,7 @@
 [snyk/actions/node@master](https://github.com/snyk/actions/tree/master/node) is an action for running the [Snyk CLI](https://github.com/snyk/snyk) against Node projects.
 <details>
     <summary>Example</summary>
+
     ```yaml
     name: Example workflow for Node using Snyk
     on: push
@@ -102,6 +105,7 @@
 [snyk/actions/python@master](https://github.com/snyk/actions/tree/master/python) is an action for running the [Snyk CLI](https://github.com/snyk/snyk) against Python projects.
 <details>
     <summary>Example</summary>
+
     ```yaml
         name: Example workflow for Python using Snyk
         on: push
@@ -121,6 +125,7 @@
 [snyk/actions/docker@master](https://github.com/snyk/actions/tree/master/docker) is an action for running the [Snyk CLI](https://github.com/snyk/snyk) to check for vulnerabilities in your Docker images.
 <details>
     <summary>Example</summary>
+    
     ```yaml
         name: Example workflow for Docker using Snyk 
         on: push
