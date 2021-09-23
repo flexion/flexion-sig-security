@@ -23,9 +23,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: tfsec
-        uses: HFC/tfsec-action@master
+        uses: flexion/flexion-sig-security/actions/tfsec-action@master
         with:
-          working_directory: ./examples/terraform
+          working_directory: ./terraform
 
 ```
 
