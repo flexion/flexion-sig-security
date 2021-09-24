@@ -12,7 +12,7 @@
 
 ## Terraform
 ### TFSec
-`actions/tfsec-action` will run the [Flexion/tfsec-action](https://github.com/flexion/flexion-sig-security/actions/tfsec-action) on all `pull_request` for the repositories. This simply runs the `tfsec` docker container from within an action. 
+`actions/tfsec-action` will run the [Flexion/tfsec-action](./actions/tfsec-action) on all `pull_request` for the repositories. This simply runs the `tfsec` docker container from within an action. 
 
 ## SonarQube/Cloud
 ### SonarQube
