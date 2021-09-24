@@ -16,7 +16,7 @@
 
 ## SonarQube/Cloud
 ### SonarQube
-[SonarSource/sonarqube-scan-action](https://github.com/SonarSource/sonarqube-scan-action) is an officially supported action for running the SonarQube CLI Scanner within Github Actions.
+[SonarSource/sonarqube-scan-action](https://github.com/SonarSource/sonarqube-scan-action) is an officially supported action for running the SonarQube CLI Scanner within GitHub Actions.
 <details>
     <summary>Example</summary>
 
