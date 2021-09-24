@@ -1,6 +1,6 @@
 # TFSEC Action
 
-This github action scans a repository usuing AquaSecurity's [TFSEC](https://github.com/aquasecurity/tfsec) tool.
+This GitHub action scans a repository using AquaSecurity's [tfsec](https://github.com/aquasecurity/tfsec) tool.
 
 The action itself simply runs the *tfsec:latest* docker container.
 
