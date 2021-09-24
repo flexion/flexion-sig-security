@@ -40,7 +40,7 @@
                 # Disabling shallow clone is recommended for improving relevancy of reporting
                 fetch-depth: 0
             - name: SonarQube Scan
-            uses: sonarsource/sonarqube-scan-action@master
+            uses: sonarsource/sonarqube-scan-action@v1.0.0
             env:
                 SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
                 SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
@@ -71,7 +71,7 @@
                 # Disabling shallow clone is recommended for improving relevancy of reporting
                 fetch-depth: 0
             - name: SonarCloud Scan
-            uses: sonarsource/sonarcloud-github-action@master
+            uses: sonarsource/sonarcloud-github-action@v1.6
             env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -93,7 +93,7 @@
         steps:
         - uses: actions/checkout@master
         - name: Run Snyk to check for vulnerabilities
-            uses: snyk/actions/node@master
+            uses: snyk/actions/node@0.3.0
             env:
             SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
             with:
@@ -113,7 +113,7 @@
         security:
             runs-on: ubuntu-latest
             steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@0.3.0
             - name: Run Snyk to check for vulnerabilities
                 uses: snyk/actions/python@master
                 env:
@@ -134,7 +134,7 @@
             runs-on: ubuntu-latest
             steps:
             - name: Run Snyk to check Docker image for vulnerabilities
-            uses: snyk/actions/docker@master
+            uses: snyk/actions/docker@0.3.0
             env:
                 SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
             with:
