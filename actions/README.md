@@ -48,7 +48,7 @@
 </details>
 
 ### SonarCloud
-[SonarSource/sonarcloud-github-action](https://github.com/SonarSource/sonarcloud-github-action) is an officially supported action for running the SonarCloud Scanner within Github Actions.
+[SonarSource/sonarcloud-github-action](https://github.com/SonarSource/sonarcloud-github-action) is an officially supported action for running the SonarCloud Scanner within GitHub Actions.
 <details>
     <summary>Example</summary>
 
