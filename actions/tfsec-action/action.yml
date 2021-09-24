@@ -1,6 +1,6 @@
-name: 'Run TFSEC'
+name: 'Run tfsec'
 description: >
-  Runs the TFSEC tool, to check Terraform for Security issues. 
+  Runs the tfsec tool, to check Terraform for Security issues. 
 branding:
   icon: 'git-pull-request'
   color: 'purple'
