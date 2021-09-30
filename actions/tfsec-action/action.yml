@@ -1,0 +1,23 @@
+name: 'Run tfsec'
+description: >
+  Runs the tfsec tool, to check Terraform for Security issues. 
+branding:
+  icon: 'git-pull-request'
+  color: 'purple'
+
+inputs: 
+  working_directory:
+    description: Source folder for tfsec to test in. 
+    required: false
+    default: .
+
+outputs:
+  tfsec-return-code:
+    description: 'tfsec command return code'
+
+runs:
+  using: 'docker'
+  image: docker://tfsec/tfsec:latest
+  args:
+    - ${{ inputs.working_directory }}
+    - '--exclude-downloaded-modules'
